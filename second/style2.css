@@ -1,0 +1,94 @@
+body {
+	background-color: lightgray;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	min-width: 375px;
+}
+
+a {
+	text-decoration: none;
+	font-family: cursive;
+	color: white;
+}
+
+.top {
+	width: 74%;
+	height: max-content;
+	background-color: white;
+	margin: 20px auto 40px auto;
+	padding: 3%;
+	padding-bottom: 70px;
+	position: relative;
+}
+
+.top-text {
+	height: max-content;
+}
+
+.link-buttons {
+	width: 100px;
+	height: 20px;
+	float: left;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+#link-button-1 {
+	background-color: red;
+	bottom: 30px;
+	left: 30px;
+
+}
+
+#link-button-2 {
+	background-color: blue;
+	bottom: 30px;
+	left: 150px;
+
+}
+
+.bottom {
+	width: 74%;
+	height: max-content;
+	background-color: white;
+	margin: auto;
+	padding: 3%;
+}
+
+img {
+	width: 100%;
+	height: 500px;
+}
+
+.footer {
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	margin-top: 30px;
+	position: relative;
+}
+
+.footer a {
+	font-family: sans-serif;
+}
+
+.footer-links {
+	width: 100px;
+	height: 30px;
+	float: right;
+	position: absolute;
+	text-align: center;
+}
+
+#apple-link {
+	right: 200px;
+	bottom: 20px;
+}
+
+#google-link {
+	right: 90px;
+	bottom: 20px;
+}
