@@ -1,0 +1,68 @@
+body {
+	min-width: 805px;
+}
+
+
+.top div {
+	width: 30%;
+	height: 150px;
+	display: inline-block;
+	margin-left: 24px;
+}
+
+.top-left {
+	background: red;
+}
+
+.top-middle {
+	background: lightblue;
+}
+
+.top-right {
+	background: black;
+}
+
+
+.text-box {
+	height: 200px;
+}
+
+.under-left {
+	width: 33.3%;
+	height: 180px;
+	background: red;
+	display: inline-block;
+	margin: none;
+	float: left;
+}
+
+.under-right {
+	width: 66.6%;
+	height: 180px;
+	background: lightblue;
+	display: inline-block;
+	float: left;
+	margin: none;
+
+}
+
+.footer-left {
+	width: 80%;
+	height: 100px;
+	background: lightblue;
+	display: inline-block;
+	float: left;
+	margin-top: 20px;
+}
+
+.footer-right {
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin-top: 20px;
+	border-left: solid 20px;
+	border-right: solid 20px;
+	border-color: red;
+	background: black;
+	box-sizing: border-box;
+}
